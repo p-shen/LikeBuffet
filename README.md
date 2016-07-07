@@ -11,14 +11,14 @@ This project picks candidate stocks by a two-step filtering process as described
 
 
 Note: This is a fun side project used to get to learn web designing with:
-    * AngularJS
-    * Coffeescript
-    * Scala
-    * PlayFramework
-    * Mongo
-    * Guice
-    * Tensorflow (The TensorFlow project is not up and running yet, and will be added as a seperate project that will
-    link back to this project as it progresses.)
+*   AngularJS
+*   Coffeescript
+*   Scala
+*   PlayFramework
+*   Mongo
+*   Guice
+*   Tensorflow (The TensorFlow project is not up and running yet, and will be added as a seperate project that will
+link back to this project as it progresses.)
 
 Getting Started
 ----------
