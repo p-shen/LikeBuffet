@@ -30,7 +30,7 @@ Your development environment will require:
 Once the prerequisites have been installed, you will be able to execute the following from a terminal.
 
 ```
-../modern-web-template >  sbt run
+../LikeBuffet >  sbt run
 ```
 
 This should fetch all the dependencies and start a Web Server listening on *localhost:9000*
