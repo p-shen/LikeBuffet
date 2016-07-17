@@ -1,4 +1,4 @@
-name := """modern-web-template"""
+name := """LikeBuffet"""
 
 version := "0.1-SNAPSHOT"
 

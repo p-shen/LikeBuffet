@@ -2,10 +2,15 @@
 
     <div ng-controller="UserCtrl as uc">
         <div class="jumbotron">
-            <h2>A Modern Web Template</h2>
-            <p class="pull-right">... a UI created using AngularJS and Bootstrap</p>
-        </div>
+            <h2 class="text-center">Like Buffet</h2>
+            <br />
+            <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <input class="form-control" type="text" ng-model="searchStocks" placeholder="Enter stock symbol...">
+            </div>
+            </div>
 
+        <!--
         <div>
             <div class="form-group">
                 <h3>
@@ -64,5 +69,7 @@
                 </accordion-group>
             </accordion>
         </div>
+
+        -->
 
     </div>
