@@ -32,15 +32,15 @@ Your development environment will require:
 Once the prerequisites have been installed, you will be able to execute the following from a terminal.
 
 ```
-../LikeBuffet >  sbt run
+../Trendfolio >  sbt run
 ```
 
 This should fetch all the dependencies and start a Web Server listening on *localhost:9000*
 
 ```
-[info] Loading project definition from ../LikeBuffett
-[info] Set current project to LikeBuffett
-[info] Updating LikeBuffett...
+[info] Loading project definition from ../Trendfolio
+[info] Set current project to Trendfolio
+[info] Updating Trendfolio...
 ...
 [info] Done updating.
 
