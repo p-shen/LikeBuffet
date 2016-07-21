@@ -15,8 +15,11 @@ app = angular.module('myApp', dependencies)
 angular.module('myApp.routeConfig', ['ngRoute'])
     .config(['$routeProvider', ($routeProvider) ->
         $routeProvider
-            .when('/', {
+            .when('/template', {
                 templateUrl: '/assets/partials/view.html'
+            })
+            .when('/analysis/:ticker',{
+                templateUrl: 'assets/partials/analysis.html'
             })
             .when('/users/create', {
                 templateUrl: '/assets/partials/create.html'
