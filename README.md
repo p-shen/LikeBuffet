@@ -9,7 +9,7 @@ This project picks candidate stocks by a two-step filtering process as described
    be subcategorized by industry. One of the more unique points of this model is that social media trends are also taken
    into consideration about how the stock might perform.
 
-More information on modeling: https://github.com/p-shen/prototypes/tree/master/LikeBuffet
+More information about the data model [here](https://github.com/p-shen/prototypes/blob/master/Trendfolio/Trendfolio_Model/model.md)
 
 
 Note: This is a fun side project used to get to learn web designing with:
