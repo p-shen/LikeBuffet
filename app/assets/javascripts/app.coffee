@@ -15,11 +15,14 @@ app = angular.module('myApp', dependencies)
 angular.module('myApp.routeConfig', ['ngRoute'])
     .config(['$routeProvider', ($routeProvider) ->
         $routeProvider
-            .when('/template', {
-                templateUrl: '/assets/partials/view.html'
+            .when('/',{
+                templateUrl: 'assets/partials/analysis-search.html'
             })
             .when('/analysis/:ticker',{
-                templateUrl: 'assets/partials/analysis.html'
+                templateUrl: '/assets/partials/analysis.html'
+            })
+            .when('/template', {
+                templateUrl: '/assets/partials/view.html'
             })
             .when('/users/create', {
                 templateUrl: '/assets/partials/create.html'

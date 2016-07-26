@@ -1,0 +1,15 @@
+<div ng-controller="TickerHomeCtrl as th">
+    <div class="jumbotron">
+        <h2 class="text-center">{{ th.title }}</h2>
+        <br/>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <input class="form-control" type="text" ng-model="th.ticker" placeholder="Enter stock ticker symbol..."
+                       ng-keypress="($event.which === 13) ? th.getTicker() : return" />
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
